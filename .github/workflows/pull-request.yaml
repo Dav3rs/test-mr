@@ -1,0 +1,8 @@
+on:
+  pull_request_target:
+    branches: [main]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running on PR"
