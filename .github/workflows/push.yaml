@@ -6,3 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Running on push"
+      - run: npm i -g pnpm && pnpm i && pnpm test
