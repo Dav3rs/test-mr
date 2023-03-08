@@ -1,3 +1,3 @@
 export function test() {
-	console.log("Not implemented!");
+	console.log("Already Implemented!");
 }
